@@ -2,3 +2,12 @@
 @import './components/_playerList.scss';
 @import './components/_teamButtonGroup.scss';
 @import './components/_teamButton.scss';
+@import './components/_playerCard.scss';
+
+body {
+  background-color: rgb(76, 63, 190);
+}
+
+ul {
+  padding-left: 0px;
+}
