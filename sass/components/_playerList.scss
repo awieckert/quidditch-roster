@@ -1,6 +1,36 @@
+@import '../variables.scss';
+
 .player-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
+  justify-content: space-evenly;
+
+  li {
+   @extend %player-card;
+  }
+}
+
+%player-card {
+    margin: 10px 10px 10px 10px;
+    box-shadow: $box-shadow;
+    @include default-font(1em);
+    background-color: $gold;
+    border-radius: 2px;
+
+    img {
+      height: 200px;
+      width: 250px;
+    }
+
+    h3 {
+      margin-top: 5px;
+      margin-bottom: 0px;
+    }
+
+    h5 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
 }

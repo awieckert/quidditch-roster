@@ -1,0 +1,25 @@
+@import '../variables.scss';
+
+.player-team-gryffindor {
+  h3 {
+    @include player-name-color($gryffindor);
+  }
+}
+
+.player-team-slytherin {
+  h3 {
+    @include player-name-color($slytherin);
+  }
+}
+
+.player-team-hufflepuff {
+  h3 {
+    @include player-name-color($hufflepuff);
+  }
+}
+
+.player-team-ravenclaw {
+  h3 {
+    @include player-name-color($ravenclaw);
+  }
+}
