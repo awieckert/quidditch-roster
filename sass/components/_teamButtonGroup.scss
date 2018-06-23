@@ -1,0 +1,15 @@
+@import '../variables.scss';
+
+.team-button-group {
+  display: flex;
+  justify-content: center;
+
+  div {
+    color: $lightgray;
+  }
+
+  & > * {
+    margin: 0px 30px 0px 0px;
+  }
+
+}
